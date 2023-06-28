@@ -6,7 +6,7 @@ import torch.nn as nn
 
 class FeatureExtractor(nn.Module):
     """Applies randomly generated convolutions, then applies global max pooling &
-        extracts extracts the proportion of positive values in feature maps in parallel.
+        extracts the proportion of positive values in feature maps in parallel.
         The convolutions are only generated on init.
     """
 
